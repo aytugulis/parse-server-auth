@@ -1,4 +1,4 @@
-# parse-server-crud
+# parse-server-auth
 
 # Getting started
 
@@ -21,3 +21,5 @@ To get the Node server running locally:
 
 - `cloud/main` - The entry point to our application. This file defines our requests.
 - `cloud/controllers` - This folder contains entry point's functions.
+- `cloud/schemas` - This folder contains schemas.
+- `cloud/triggers` - This folder contains triggers. (For example: beforeSave, beforeFind etc.)
