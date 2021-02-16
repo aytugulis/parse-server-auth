@@ -28,6 +28,8 @@ const config = {
 
 const app = express();
 
+app.use(express.json())
+
 // Serve static assets from the /public folder
 app.use('/public', express.static(path.join(__dirname, '/public')));
 
